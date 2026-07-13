@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mandala watermark and saffron accents */
+body { @apply bg-gray-50 text-gray-800; }
+.mandala {
+  background-image: radial-gradient(circle at 50% 50%, rgba(249,115,22,0.06), transparent 30%);
+  background-repeat: no-repeat;
+  background-position: center;
+}
